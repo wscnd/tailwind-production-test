@@ -21,8 +21,9 @@ const App = () => {
           />
           <h1 className="mt-6 text-2xl font-bold text-gray-900 sm:mt-8 lg:text-3xl xl:text-4xl">
             You can work from anywhere.
-            <br className="hidden lg:inline" />
-            <span className="text-indigo-500 ">Take advantage of it.</span>
+            <br className="hidden lg:inline">
+              <span className="text-indigo-500 ">Take advantage of it.</span>
+            </br>
           </h1>
           <p className="mt-2 text-lg font-light text-gray-600 sm:mt-5 sm:text-xl">
             Workcation helps you find work-friendly rentals in beautiful
@@ -38,6 +39,13 @@ const App = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="max-w-md sm:max-w-xl lg:max-w-6xl mx-auto px-8 lg:px-12 py-8">
+        <h2 className="text-xl text-gray-900">Popular destinations</h2>
+        <p className="mt-2 text-gray-600">
+          A selection of great work-friendly cities with lots to see and
+          explore.
+        </p>
       </div>
     </div>
   );
