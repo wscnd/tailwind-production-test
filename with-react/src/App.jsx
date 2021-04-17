@@ -6,24 +6,20 @@ import DestinationCard from "./DestionationCard";
 const App = () => {
   return (
     <div>
-      <div className="lg:grid-areas-lg lg:grid-cols-lg lg:grid 2xl:grid-cols-2xl 2xl:grid-areas-2xl">
+      <div className="bg-gray-100 lg:grid-areas-lg lg:grid-cols-lg lg:grid 2xl:grid-cols-2xl 2xl:grid-areas-2xl ">
         <div className="relative hidden grid-in-image lg:block">
           <img
             className="absolute inset-0 object-cover object-center w-full h-full "
-            src="src/img/beach-work.jpg"
+            src="img/beach-work.jpg"
             alt="Woman workcationning on the Beach"
           />
         </div>
-        <div className="max-w-md px-8 py-12 mx-auto sm:max-w-xl grid-in-content lg:max-w-full xl:mr-0 ">
+        <div className="max-w-md px-8 py-12 mx-auto sm:max-w-xl grid-in-content lg:max-w-full xl:mr-0 lg:py-24 lg:px-12 ">
           <div className="xl:max-w-xl">
+            <img className="h-10" src="img/logo-brand.svg" alt="Workcation" />
             <img
-              className="h-10"
-              src="src/img/logo-brand.svg"
-              alt="Workcation"
-            />
-            <img
-              className="mt-6 shadow-xl sm:object-cover sm:object-center sm:w-full rounded-xl sm:mt-8 sm:h-64 md:h-72 md:object-cover md:object-center lg:hidden "
-              src="src/img/beach-work.jpg"
+              className="mt-6 shadow-xl sm:object-cover object-center sm:w-full rounded-xl sm:mt-8 sm:h-64 md:h-72 md:object-cover md:object-center lg:hidden "
+              src="img/beach-work.jpg"
               alt="Woman workcationning on the Beach"
             />
             <h1 className="mt-6 text-2xl font-headline font-semibold trakcing-tight text-gray-900 sm:mt-8 lg:text-3xl xl:text-4xl">
@@ -47,7 +43,7 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="max-w-md px-8 pb-8 mx-auto lg:pt-5 sm:max-w-xl lg:max-w-6xl lg:px-12">
+      <div className=" max-w-md px-8 pb-8 mx-auto lg:pt-5 sm:max-w-xl lg:max-w-6xl lg:px-12">
         <h2 className="text-xl text-gray-900">Popular destinations</h2>
         <p className="mt-2 text-gray-600">
           A selection of great work-friendly cities with lots to see and
